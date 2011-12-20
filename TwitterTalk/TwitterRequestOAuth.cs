@@ -11,8 +11,8 @@ namespace tTalk
 {
     class TwitterRequestOAuth : TwitterRequest
     {
-        private string _consumer_key = "Y7IDbEEGQfGHA4CYaXjEHQ";
-        private string _consumer_secret = "qWpthCKImEVRk22lYjzgSQyQt9egnD3whXd4p5oiA";
+        private string _consumer_key = "";
+        private string _consumer_secret = "";
         private string _access_token = "";
         private string _access_token_secret = "";
         private string _twitter_oauth_request_token = @"https://twitter.com/oauth/request_token";
